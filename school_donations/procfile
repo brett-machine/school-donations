@@ -1,0 +1,2 @@
+web: gunicorn school_donations:app
+heroku local -f Procfile.windows
